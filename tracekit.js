@@ -3,9 +3,6 @@
  MIT license
 */
 
-(function(window, undefined) {
-
-
 var TraceKit = {};
 var _oldTraceKit = window.TraceKit;
 
@@ -1104,9 +1101,4 @@ if (!TraceKit.linesOfContext || TraceKit.linesOfContext < 1) {
   TraceKit.linesOfContext = 11;
 }
 
-
-
-// Export to global object
-window.TraceKit = TraceKit;
-
-}(window));
+module.exports = TraceKit;
