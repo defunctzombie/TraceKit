@@ -1,6 +1,11 @@
 {
     "name": "TraceKit",
     "version": "0.1.0",
+    "main": "./tracekit.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/defunctzombie/TraceKit.git"
+    },
     "devDependencies": {
         "grunt": "~0.4.1",
         "grunt-contrib-jshint": "~0.6.2",
