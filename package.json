@@ -7,12 +7,9 @@
         "url": "https://github.com/defunctzombie/TraceKit.git"
     },
     "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-contrib-jshint": "~0.6.2",
-        "grunt-cli": "~0.1.9",
-        "grunt-closure-tools": "~0.8.3"
+        "zuul": "~1.0.9"
     },
     "scripts": {
-        "test": "grunt --verbose travis"
+        "test": "zuul -- tests/index.js"
     }
 }
